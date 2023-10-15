@@ -1,0 +1,34 @@
+{
+  "name": "rg-cin-vuetify",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mdi/font": "7.0.96",
+    "axios": "^1.3.6",
+    "cropperjs": "^1.5.13",
+    "crypto-js": "^4.1.1",
+    "jquery": "^3.6.4",
+    "moment": "^2.29.4",
+    "pinia": "^2.0.35",
+    "query-string": "^8.1.0",
+    "roboto-fontface": "*",
+    "sweetalert2": "^11.6.13",
+    "vue": "^3.2.38",
+    "vue-flatpickr-component": "^11.0.3",
+    "vue-moment": "^4.1.0",
+    "vue-router": "^4.0.0",
+    "vue-the-mask": "^0.11.1",
+    "vuetify": "^3.0.0",
+    "vuex": "^4.1.0",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3",
+    "vite": "^3.1.9",
+    "vite-plugin-vuetify": "^1.0.0-alpha.12"
+  }
+}

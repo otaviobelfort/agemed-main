@@ -1,0 +1,100 @@
+:root {
+    --bg-main-rgcin: #060d18b6;
+}
+
+body {
+    height: 100vh;
+}
+
+.rg-bg-main {
+    background-color: var(--bg-main-rgcin);
+}
+
+.rg-navbar {
+    height: 70px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.list-hover:hover {
+    background-color: #f7f7f7;
+}
+
+#tarjaTreinamento {
+    background-color: #970101d0;
+    color: #fff;
+    font-weight: bolder;
+    height: 30px;
+    width: 350px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-45deg);
+    margin: 40px 0 0 -105px;
+    z-index: 1000;
+}
+
+.cin-break-text {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.form-label-resize label {
+    font-size: 12px !important;
+}
+
+.form-label-resize input {
+    font-size: 12px !important;
+}
+
+.form-pickr label {
+    font-size: 12px !important;
+}
+
+.form-pickr input {
+    font-size: 14px !important;
+}
+
+.w-250 {
+    width: 250px;
+}
+
+.w-350 {
+    width: 350px;
+}
+
+.w-450 {
+    width: 450px;
+}
+
+.colored-toast.swal2-icon-success {
+    background-color: #568639 !important;
+    color: #ffffff !important;
+}
+
+.colored-toast.swal2-icon-error {
+    background-color: #f27474d3 !important;
+    color: #ffffff !important;
+}
+
+.colored-toast.swal2-icon-warning {
+    background-color: #dfc42f !important;
+    color: #ffffff !important;
+}
+
+.colored-toast.swal2-icon-info {
+    background-color: #4396df !important;
+    color: #ffffff !important;
+}
+
+.colored-toast .swal2-title {
+    color: white !important;
+}
+
+.swal2-container {
+    z-index: 20000 !important;
+}
